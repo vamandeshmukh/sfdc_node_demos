@@ -1,12 +1,18 @@
-import { express } from 'express';
 
+// import { express } from 'express';
+const express = require('express');
 const exp = express();
 const port = 9999;
+
+// to run this app - 
+// npm start 
+// view the output on browser at 
+// http://localhost:9999/
 
 // exp.get(arg1, arg2);
 // exp.get('/', () => {});
 
-exp.get('/', (response, request) => {
+exp.get('/', (request, response) => {
     response.send(`Welcome to SFDC app at ${port}.`);
     console.log(`Welcome!`)
 });
