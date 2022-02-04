@@ -1,0 +1,12 @@
+{
+  "name": "sfdc_node_demos",
+  "version": "1.0.0",
+  "description": "Node demo project for CG trainees SFDC 25 jan 2022 batch 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaman Deshmukh",
+  "license": "ISC"
+}
+
