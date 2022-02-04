@@ -13,7 +13,7 @@ const port = 9999;
 // exp.get('/', () => {});
 
 exp.get('/', (request, response) => {
-    response.send(`Welcome to SFDC app at ${port}.`);
+    response.send(`Welcome to SFDC app at ${port}`);
     console.log(`Welcome!`)
 });
 
